@@ -1,13 +1,16 @@
+/*css reset to override any automatic browser styles*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*background color for the whole website*/
 body {
     background-color: #d9dcd6;
 }
 
+/*style for the title and nav bar*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*affecting the title "Horiseon"*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*changing the color of the span in the title*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*how and where to display the nav bar(size, font, and to the right side)*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/*gets rid of the bullet points on the nav bar items*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*display the nav bar list in a row and not a column*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*nav bar items text is white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*all text other than header and footer items is smaller at 16px*/
 p {
     font-size: 16px;
 }
 
+/*main image sizing info*/
 .picture {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*causes the image to be displayed left of the text*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*caused the image to be displayed right of the text*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*causes the content boxes to take up 75% of the width of the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*causes the content boxes to take up the remaining 25% of the width of the page on the right side*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +100,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*lead, brand, and cost need to be consolidated*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +116,7 @@ p {
     color: #ffffff;
 }
 
+/*lead, brand, and cost need to be consolidated*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +132,7 @@ p {
     text-align: center;
 }
 
+/*lead, brand, and cost need to be consolidated*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +151,7 @@ p {
     max-width: 150px;
 }
 
+/* seo, orm, and smm need to be consolidated*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +179,7 @@ p {
     color: #ffffff;
 }
 
+/*images for seo, orm, and smm need to be consolidated*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +192,7 @@ p {
     max-height: 200px;
 }
 
+/*h2s for seo, orn, smm need to be consolidated*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +208,7 @@ p {
     font-size: 36px;
 }
 
+/*style for footer including font, centering, ect*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +216,7 @@ p {
     text-align: center;
 }
 
+/*possibly consolidate this with the .footer*/
 .footer h2 {
     font-size: 20px;
 }
