@@ -1,5 +1,7 @@
 # horiseon
 
+![](assets/images/horiseon.png)
+
 ## Links
 
 Deployed Application:
